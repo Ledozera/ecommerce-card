@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(150, 143, 143);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border: 2px solid #fff;
+  border-radius: 7px;
+  padding: 40px 50px;
+  margin: 30px 35px;
+  background-color: black;
+}
+
+.card .card-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .card-body {
+  padding-top: 15px;
+}
+
+.card .card-body .stars i {
+  color: orangered;
+  font-size: 12px;
+}
+
+.card .card-body h3 {
+  margin-top: 4px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.card .card-body label {
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgb(150, 143, 143);
+}
+
+.card .card-body ul {
+  margin-top: 20px;
+  position: relative;
+  left: 19px;
+  font-size: 14px;
+}
+
+.card .card-body .price {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .card-body .price label {
+  color: rgb(255, 170, 170);
+  font-size: 19px;
+  position: relative;
+  bottom: 3px;
+}
+
+.card .card-body .price button {
+  background: rgb(255, 104, 104);
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 8px 13px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-right: 5px;
+  transition: 0.5s;
+}
+
+.card .card-body .price button:hover {
+  background-color: rgb(255, 0, 0);
+}
